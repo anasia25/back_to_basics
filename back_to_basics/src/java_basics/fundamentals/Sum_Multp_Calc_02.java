@@ -3,7 +3,7 @@ package java_basics.fundamentals;
 import java.util.Scanner;
 
 public class Sum_Multp_Calc_02 {
-    // calculating the sum and product of two numbers
+    // Calculating the sum and product of two numbers
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,9 +17,9 @@ public class Sum_Multp_Calc_02 {
         System.out.println("Enter the operation: ");
         char operation = scanner.next().charAt(0);
 
-        if(operation == '+') {
+        if (operation == '+') {
             System.out.println("The sum of " + no_1 + " and " + no_2 + " is: " + sumCalculator(no_1, no_2));
-        } else if(operation == '*') {
+        } else if (operation == '*') {
             System.out.println("The product of " + no_1 + " and " + no_2 + " is: " + multiplicationCalculator(no_1, no_2));
         } else {
             System.out.println("Invalid operation");
